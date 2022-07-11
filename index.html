@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,500&family=Lobster+Two:ital@1&family=Square+Peg&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    <!-- TITLE -->
+    <title>FormaLab</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
+        <div class="container-fluid">
+
+            <!-- LOGO -->
+            <a class="navbar-brand" href="#"><img class="w-25 mt-2 p-2" src="./assets/images/formalab.png"></a>
+
+            <!-- HUBMERGER -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU -->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    <a class="nav-link" href="#About">About</a>
+                    <a class="nav-link" href="#Skills">Skills</a>
+                    <a class="nav-link" href="#Services">Services</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION  -->
+    <div class="container-fluid">
+
+        <!-- HEY -->
+        <div class="row">
+            <!-- TEXT -->
+            <div class="col-sm-12 col-md-12 col-lg-6" id="Home">
+                <p class="h3 mt-5">Hey ! ___</p>
+                <p class="h1">I am Helmi</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non cupiditate, architecto maxime quis
+                    accusamus quo nihil autem accusantium? Voluptatem, sapiente dolorem voluptatibus ullam debitis unde
+                    placeat quis amet est tempora distinctio. Quae vel, eveniet quibusdam error dolorem delectus hic
+                    eligendi nisi porro maxime rem eaque, est deserunt quos dignissimos aspernatur.</p>
+                <!-- BUTTONS -->
+                <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-outline-danger me-2 border border-2 border-danger" type="button">Hire
+                        Me</button>
+                    <button class="btn btn-outline-success border border-2 border-success"
+                        type="button">Contact</button>
+                </div>
+            </div>
+            <!-- IMAGE -->
+            <div class="col-sm-12 col-md-12 col-lg-6 ">
+                <img class="w-75" src="./assets/images/co-workers.png" alt="In the office">
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="container-fluid mt-2" id="About">
+        <div class="row">
+            <!-- IMAGE -->
+            <div class="col-sm-12 col-md-12 col-lg-6 ">
+                <img src="./assets/images/about.png" alt="time to read" class="w-75 img-about">
+            </div>
+            <!-- TEXT -->
+            <div class="col-sm-12 col-md-12 col-lg-6 about">
+                <p class="h1 mt-5 mb-4">___ About Me___</p>
+                <p class="mb-0 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non cupiditate,
+                    architecto
+                    maxime quis
+                    accusamus quo nihil autem accusantium? Voluptatem, sapiente dolorem voluptatibus ullam debitis
+                    unde
+                    placeat quis amet est tempora distinctio. Quae vel, eveniet quibusdam error dolorem delectus hic
+                    eligendi nisi porro maxime rem eaque, est deserunt quos dignissimos aspernatur.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SKILLS -->
+    <div class="container-fluid mt-2" id="Skills">
+        <h1 class="text-center mt-5 skills">___My skills___</h1>
+        <div class="row">
+
+            <!-- PROGRESS BAR -->
+            <div class="col-sm-12 col-md-12 col-lg-6 my-5">
+                <div class="progress mt-5">
+                    <div class="progress-bar progress-bar-striped" style="width:95%">HTML</div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" style="width:95%">CSS</div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-info" style="width:90%">BOOTSTRAP</div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width:80%">SASS</div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger" style="width:70%">JAVA SCRIPT</div>
+                </div>
+            </div>
+            <!-- IMAGE -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img src="assets/images/progress-bar.png" class="w-75 mt-3">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div class="container-fluid mt-2" id="Services">
+        <h1 class="text-center my-5 services">___Our Services___</h1>
+        <!-- PART 1 -->
+        <div class="row">
+            <!-- CARD 1 -->
+            <div class="col-sm-12 col-md-12 col-lg-4 my-4">
+                <div class="card" style="width: 18rem; height: 350PX;">
+                    <img src="./assets/images/UI-UX.png" class="card-img-top" style="height:200px;" alt="Web Design">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                            repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="col-sm-12 col-md-12 col-lg-4 my-4">
+                <div class="card" style="width: 18rem; height: 350PX;">
+                    <img src="./assets/images/web-design.png" class="card-img-top" style="height:200px;"
+                        alt="Web Design">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                            repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="col-sm-12 col-md-12 col-lg-4 my-4">
+                <div class="card" style="width: 18rem; height: 350PX;">
+                    <img src="./assets/images/web-dev.png" class="card-img-top" style="height:200px;"
+                        alt="Web Development">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                            distinctio.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- PART2-->
+            <div class="row">
+                <!-- CARD 4 -->
+                <div class="col-sm-12 col-md-12 col-lg-4 my-4">
+                    <div class="card" style="width: 18rem; height: 350PX;">
+                        <img src="./assets/images/SEO.png" class="card-img-top" style="height:200px;" alt="SEO">
+                        <div class="card-body">
+                            <h5 class="card-title">SEO</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                                voluptatibus!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 5 -->
+                <div class="col-sm-12 col-md-12 col-lg-4 my-4">
+                    <div class="card" style="width: 18rem; height: 350PX;">
+                        <img src="./assets/images/mobile-dev.png" class="card-img-top" style="height:200px;"
+                            alt="Mobile Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Application</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                                voluptatibus!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 6 -->
+                <div class="col-sm-12 col-md-12 col-lg-4 my-4">
+                    <div class="card" style="width: 18rem; height: 350PX;">
+                        <img src="./assets/images/desktop-app.png" class="card-img-top" style="height:200px;"
+                            alt="Desktop Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Desktop Application</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+                                officiis.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div class="container-fluid mt-2" id="Contact">
+        <h1 class="text-center my-5 services">___Get in Touch___</h1>
+        <div class="row">
+
+            <!-- IMAGE -->
+
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img class="w-75" src="./assets/images/mailling.png" alt="Mailling">
+            </div>
+
+            <!-- FOOTER -->
+
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <footer>
+                    <div class="mb-3 w-75 mt-5">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 w-75">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center p-3 bg-light">
+        © FormaLab 2022
+    </div>
+    <!--LINK JS -->
+    <script src="./assets/JS/bootstrap.bundle.js"></script>
+</body>
